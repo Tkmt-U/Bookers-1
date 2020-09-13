@@ -1,8 +1,8 @@
 <body>
+  <h2 class="headtext"></h2>
   <div class="show-box">
-    <h4>Title:<%= @book.title %></h4>
-    <h4>Body:<%= @book.body %></h4>
-
+    <h4 class="contents-space">Title:<%= @book.title %></h4>
+    <h4 class="contents-space">Body:<%= @book.body %></h4>
 
     <div class="link-box">
       <%= link_to "Edit", edit_book_path %>
